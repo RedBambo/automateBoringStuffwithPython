@@ -17,7 +17,6 @@ upperlowerRegex = re.compile(r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).+')
 print("Enter your password: ")
 mypassword = input()
 password = mypassword 
-validlongPasswords = []
 #for password in eightCharRegex.findall(password) and password in upperlowerRegex.findall(password): 
 #    print(password)    
 if password not in eightCharRegex.findall(password):
